@@ -73,9 +73,9 @@ function App() {
           <Route
             path="/client"
             element={
-              <RoleBasedRoute allowedRoles={['client']}>
+              //<RoleBasedRoute allowedRoles={['client']}>
                 <ClientLayout />
-              </RoleBasedRoute>
+              //RoleBasedRoute>
             }
           >
             {/* Main Dashboard */}
@@ -108,9 +108,9 @@ function App() {
           <Route
             path="/pilot"
             element={
-              <RoleBasedRoute allowedRoles={['pilot']}>
+              //RoleBasedRoute allowedRoles={['pilot']}>
                 <PilotLayout />
-              </RoleBasedRoute>
+              //</RoleBasedRoute>
             }
           >
             {/* Main Dashboard - Missions & Quotes */}
